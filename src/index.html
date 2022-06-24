@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/8370a69678.js" crossorigin="anonymous"></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header">
+            <div class="header__title">
+                <a href="#"><span>Q</span>uiz App</a>
+            </div>
+            <div class="header__search">
+                <input type="text" class="header__search-input" placeholder="Tìm quiz">
+                <i class="header__search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="header__nav">
+                <!-- add class "header__nav-item--active" active "header__nav-item"-->
+                <div class="header__nav-item header__nav-item--active">
+                    <i class="nav-icon fa-solid fa-house"></i>
+                    <div class="nav-item-title">Trang chủ</div>
+                </div>
+                <div class="header__nav-item">
+                    <i class="nav-icon fa-solid fa-clock-rotate-left"></i>
+                    <div class="nav-item-title">Hoạt động</div>
+                </div>
+                <div class="header__nav-item">
+                    <i class="nav-icon fa-solid fa-user-group"></i>
+                    <div class="nav-item-title">Các lớp học</div>
+                </div>
+            </div>
+            <div class="header-right-wrapper">
+                <button class="header__login-btn btn">Đăng Nhập</button>
+                <button class="header__register-btn btn">Đăng ký</button>
+                <div class="header__dropdown">
+                    <i class="fa-solid fa-bars"></i>
+                    <!-- display when click bars -->
+                    <!-- <i class="fa-solid fa-xmark"></i> -->
+                    <div class="dropdown">
+                        <div class="dropdown-item">
+                            <i class="dropdown-item-icon fa-solid fa-gear"></i>
+                            <div class="dropdown-item-name">Cài đặt</div>
+                        </div>
+                        <div class="dropdown-item">
+                            <i class="dropdown-item-icon fa-solid fa-right-to-bracket"></i>
+                            <div class="dropdown-item-name">Đăng nhập</div>
+                        </div>
+                        <div class="dropdown-item">
+                            <i class="dropdown-item-icon fa-solid fa-user-plus"></i>
+                            <div class="dropdown-item-name">Đăng ký</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Container -->
+        <div class="container"></div>
+
+        <!-- Footer -->
+        <div class="footer">
+            
+        </div>
+        
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
